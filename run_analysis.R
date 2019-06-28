@@ -112,7 +112,15 @@ names(test_and_train) <- new_dataset_names
 # summarise_all will take the mean of all non-grouped-by variables
 test_and_train_avg <- test_and_train %>% 
   group_by(subject, activity) %>% 
-  summarise_all(mean)
+  summarise_all(mean) %>% 
+  ungroup()
+
+# adjust variable names one more time to new pre-fix measurements with Avg to indicate
+# these are now average measurements (subject and activity remain unchanged)
+
+final_names <- c(names(test_and_train_avg[1:2]), paste0("Avg", names(test_and_train_avg[3:68])))
+
+names(test_and_train_avg) <- final_names
 
 # write out text file for submission
 write.table(test_and_train_avg, "get_clean_data_tidy.txt", row.name = FALSE)

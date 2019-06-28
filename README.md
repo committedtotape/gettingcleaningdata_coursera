@@ -2,10 +2,9 @@
 
 Repository for Coursera Getting and Cleaning Data Assignment which is based on a [Human Activity Recognition Using Smartphones Data Set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
 
-This repository comprises of 3 files:
+This repository comprises of 2 files:
 
 *  `run_analysis.R` - The R code to extract, manipulate and output a tidy dataset as requested. See below for details.
-*  `get_clean_data_tidy.txt` - The final tidy dataset created by R code.
 *  `CodeBook.md` - A document to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
 ## run_analysis.R

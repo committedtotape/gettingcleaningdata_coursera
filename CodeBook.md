@@ -73,7 +73,7 @@ The variables in the final dataset are as follows:
 33.  "AvgFrequencyBodyAccelerometerJerkMagnitudeMean" - Average of mean frequency domain jerk body acceleration magnitude
 34.  "AvgFrequencyBodyGyroscopeMagnitudeMean" - Average of mean frequency domain body gyroscope magnitude
 35.  "AvgFrequencyBodyGyroscopeJerkMagnitudeMean" - Average of mean frequency domain jerk body gyroscope magnitude
-36 - 68. The variables 3-35 are repeated but for the average of the standard deviation instead of average of the mean.
+36 - 68.  The variables 3-35 are repeated but for the average of the standard deviation instead of average of the mean.
 
 All features (3-68) are numeric and normalized and bounded within [-1,1].
 

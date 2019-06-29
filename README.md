@@ -72,7 +72,7 @@ Activites are named using the `activity_labels.txt` file. This is joined using t
 
 ### Section 4
 
-Descriptive variable names are provided by ammending the existing variable names as given by the `features.txt` file. Various replacements are made using the `str_replacement` function from the `stringr` package to make the names more descriptive by expanding on abbreviations.
+Descriptive variable names are provided by ammending the existing variable names as given by the `features.txt` file. Various replacements are made using the `str_replace` function from the `stringr` package to make the names more descriptive by expanding on abbreviations.
 
 ### Section 5
 
